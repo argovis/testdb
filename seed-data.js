@@ -74,6 +74,6 @@ db.drifterMeta.insertMany([
 ])
 
 db.user.insertMany([
-	{first: "Grace", last: "Hopper", key: "developer", email: "dev@test.edu", tokenValid:9999}
+	{first: "Grace", last: "Hopper", key: "developer", email: "dev@test.edu", tokenValid:9999},
 	{first: "Grace", last: "Hopper", key: "guest", email: "dev2@test.edu", tokenValid:9999}
 ]);
