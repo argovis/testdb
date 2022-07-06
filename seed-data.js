@@ -35,7 +35,7 @@ db.tc.createIndex({geolocation:"2dsphere"});
 
 db.tcMeta.insertMany([
 	{ "_id" : "AL011851", "data_type" : "tropicalCyclone", "data_keys" : [ "wind", "pres" ], "units" : [ "kt", "mb" ], "date_updated_argovis" : ISODate("2022-07-05T15:49:18.120Z"), "source" : [ { "source" : [ "tc_hurdat" ] } ], "name" : "UNNAMED", "num" : 1 },
-	{ "_id" : "AL041851", "data_type" : "tropicalCyclone", "data_keys" : [ "wind", "pres" ], "units" : [ "kt", "mb" ], "date_updated_argovis" : ISODate("2022-07-05T15:49:18.120Z"), "source" : [ { "source" : [ "tc_hurdat" ] } ], "name" : "UNNAMED", "num" : 4 }
+	{ "_id" : "AL041851", "data_type" : "tropicalCyclone", "data_keys" : [ "wind", "pres" ], "units" : [ "kt", "mb" ], "date_updated_argovis" : ISODate("2022-07-05T15:49:18.120Z"), "source" : [ { "source" : [ "tc_hurdat" ] } ], "name" : "DEMO", "num" : 4 }
 ]);
 
 db['grids-meta'].insertMany([
