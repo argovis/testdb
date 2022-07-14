@@ -39,7 +39,7 @@ db.tcMeta.insertMany([
 ]);
 
 db.gridMeta.insertMany([
-	{ "_id" : "ohc_kg", "data_type" : "ocean_heat_content", "data_keys" : [ "ohc" ], "units" : [ "J/m^2" ], "date_updated_argovis" : ISODate("2022-07-13T17:23:34.480Z"), "source" : [ { "source" : [ "Kuusela_Giglio2022" ], "doi" : "10.5281/zenodo.6131625", "url" : "https://doi.org/10.5281/zenodo.6131625" } ], "levels" : [ 15 ], "lonrange" : [ -179.5, 179.5 ], "latrange" : [ -64.5, 64.5 ], "timerange" : [ ISODate("2005-01-15T00:00:00Z"), ISODate("2020-12-15T00:00:00Z") ], "loncell" : 1, "latcell" : 1 }
+	{ "_id" : "ohc_kg", "data_type" : "ocean_heat_content", "data_keys" : [ "ohc_kg" ], "units" : [ "J/m^2" ], "date_updated_argovis" : ISODate("2022-07-13T17:23:34.480Z"), "source" : [ { "source" : [ "Kuusela_Giglio2022" ], "doi" : "10.5281/zenodo.6131625", "url" : "https://doi.org/10.5281/zenodo.6131625" } ], "levels" : [ 15 ], "lonrange" : [ -179.5, 179.5 ], "latrange" : [ -64.5, 64.5 ], "timerange" : [ ISODate("2005-01-15T00:00:00Z"), ISODate("2020-12-15T00:00:00Z") ], "loncell" : 1, "latcell" : 1 }
 ]);
 
 db.ohc_kg.insertMany([
