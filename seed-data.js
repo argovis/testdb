@@ -56,7 +56,7 @@ db.ohc_kg.insertMany([
 	{ "_id" : "20050115000000_117.5_-64.5", "metadata" : "ohc_kg", "geolocation" : { "type" : "Point", "coordinates" : [ 117.5, -64.5 ] }, "basin" : 10, "timestamp" : ISODate("2005-01-15T00:00:00Z"), "data" : [ [ 319737046487.781 ] ] },
 	{ "_id" : "20050115000000_118.5_-64.5", "metadata" : "ohc_kg", "geolocation" : { "type" : "Point", "coordinates" : [ 118.5, -64.5 ] }, "basin" : 10, "timestamp" : ISODate("2005-01-15T00:00:00Z"), "data" : [ [ 319741876665.08844 ] ] },
 	{ "_id" : "20050115000000_119.5_-64.5", "metadata" : "ohc_kg", "geolocation" : { "type" : "Point", "coordinates" : [ 119.5, -64.5 ] }, "basin" : 10, "timestamp" : ISODate("2005-01-15T00:00:00Z"), "data" : [ [ 319789737631.9325 ] ] },
-	{ "_id" : "20050115000000_120.5_-64.5", "metadata" : "ohc_kg", "geolocation" : { "type" : "Point", "coordinates" : [ 120.5, -64.5 ] }, "basin" : 10, "timestamp" : ISODate("2005-01-15T00:00:00Z"), "data" : [ [ 320044313792.4627 ] ] }
+	{ "_id" : "20050115000000_120.5_-64.5", "metadata" : "ohc_kg", "geolocation" : { "type" : "Point", "coordinates" : [ 120.5, -64.5 ] }, "basin" : 10, "timestamp" : ISODate("2005-01-15T00:00:00Z"), "data" : [ [ null ] ] }
 ]);
 
 db.temperature_rg.insertMany([
