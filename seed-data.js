@@ -148,6 +148,11 @@ db.drifterMeta.insertMany([
 	{ "_id" : "101143", "platform" : "101143", "rowsize" : 417, "wmo" : 1300915, "expno" : 9325, "deploy_lon" : -17.75, "deploy_lat" : 14.742, "end_date" : ISODate("2012-04-02T00:00:00Z"), "end_lon" : -16.889999999999986, "end_lat" : 15.35, "drogue_lost_date" : ISODate("2012-04-02T00:00:00Z"), "typedeath" : 3, "typebuoy" : "SVP", "data_type" : "drifter", "date_updated_argovis" : ISODate("2022-07-01T21:33:48.702Z"), "source" : [ { "source" : [ "gdp" ], "url" : "https://www.aoml.noaa.gov/ftp/pub/phod/lumpkin/hourly/v2.00/netcdf/drifter_101143.nc" } ], "data_keys" : [ "ve", "vn", "err_lon", "err_lat", "err_ve", "err_vn", "gap", "sst", "sst1", "sst2", "err_sst", "err_sst1", "err_sst2", "flg_sst", "flg_sst1", "flg_sst2" ], "units" : [ "m/s", "m/s", "degrees_east", "degrees_north", "m/s", "m/s", "seconds", "Kelvin", "Kelvin", "Kelvin", "Kelvin", "Kelvin", "Kelvin", 'null', 'null', 'null' ], "long_name" : [ "Eastward velocity", "Northward velocity", "95% confidence interval in longitude", "95% confidence interval in latitude", "95% confidence interval in eastward velocity", "95% confidence interval in northward velocity", "time interval between previous and next location fix", "fitted sea water temperature", "fitted non-diurnal sea water temperature", "fitted diurnal sea water temperature anomaly", "standard uncertainty of fitted sea water temperature", "standard uncertainty of fitted non-diurnal sea water temperature", "standard uncertainty of fitted diurnal sea water temperature anomaly", "fitted sea water temperature quality flag", "fitted non-diurnal sea water temperature quality flag", "fitted diurnal sea water temperature anomaly quality flag" ], "deploy_date" : ISODate("2012-03-15T00:00:00Z") }
 ])
 
+db.summaries.insertMany([
+	{ "_id": "example", "summary": {"demo":[1,2,3,4]} },
+	{ "_id" : "tc_data_keys", "data_keys" : [ "surface_pressure", "wind" ] }
+])
+
 db.user.insertMany([
 	{first: "Grace", last: "Hopper", key: "developer", email: "dev@test.edu", tokenValid:9999},
 	{first: "Grace", last: "Hopper", key: "guest", email: "dev2@test.edu", tokenValid:9999}
