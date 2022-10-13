@@ -155,5 +155,6 @@ db.summaries.insertMany([
 
 db.user.insertMany([
 	{first: "Grace", last: "Hopper", key: "developer", email: "dev@test.edu", tokenValid:9999},
-	{first: "Grace", last: "Hopper", key: "guest", email: "dev2@test.edu", tokenValid:9999}
+	{first: "Grace", last: "Hopper", key: "guest", email: "dev2@test.edu", tokenValid:9999},
+	{first: "Grace", last: "Hopper", key: "regular", email: "dev3@test.edu", tokenValid:1}
 ]);
