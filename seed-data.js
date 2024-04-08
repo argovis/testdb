@@ -227,7 +227,7 @@ db.ar.insertMany([
 db.ar.createIndex({geolocation:"2dsphere"});
 
 db.extendedMeta.insertMany([
-	{ "_id" : "ar", "data_type" : "atmospheric_rivers", "data_info" : [ [ "longitude", "latitudes", "ivt" ], [ "units", "long_name" ], [["degrees east", "degrees east"], ["degrees north", "degrees north"], [ "kg/m/s", "integrated water vapor transport" ] ] ], "date_updated_argovis" : ISODate("2023-11-07T22:28:21.192Z"), "source" : [ { "doi" : "https://doi.org/10.1175/MWR-D-13-00168.1" } ] }
+	{ "_id" : "ar", "data_type" : "atmospheric_rivers", "data_info" : [ [ "longitude", "latitude", "ivt" ], [ "units", "long_name" ], [["degrees east", "degrees east"], ["degrees north", "degrees north"], [ "kg/m/s", "integrated water vapor transport" ] ] ], "date_updated_argovis" : ISODate("2023-11-07T22:28:21.192Z"), "source" : [ { "doi" : "https://doi.org/10.1175/MWR-D-13-00168.1" } ] }
 ])
 
 db.user.insertMany([
