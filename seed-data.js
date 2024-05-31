@@ -16,8 +16,8 @@ db.tc.insertMany([
 db.tc.createIndex({geolocation:"2dsphere"});
 
 db.tcMeta.insertMany([
-	{ "_id" : "AL011851", "data_type" : "tropicalCyclone", "data_info" : [ [ "wind", "surface_pressure" ], [ "units" ], [ [ "kt" ], [ "mb" ] ] ], "date_updated_argovis" : ISODate("2023-01-25T18:53:38.738Z"), "source" : [ { "source" : [ "tc_hurdat" ] } ], "name" : "UNNAMED", "num" : 1 },
-	{ "_id" : "AL041851", "data_type" : "tropicalCyclone", "data_info" : [ [ "wind", "surface_pressure" ], [ "units" ], [ [ "kt" ], [ "mb" ] ] ], "date_updated_argovis" : ISODate("2023-01-25T18:53:38.738Z"), "source" : [ { "source" : [ "tc_hurdat" ] } ], "name" : "DEMO", "num" : 4 }
+	{ "_id" : "AL011851", "data_type" : "tropicalCyclone", "data_info" : [ [ "wind", "surface_pressure" ], [ "units" ], [ [ "kt" ], [ "mb" ] ] ], "date_updated_argovis" : ISODate("2024-05-31T01:39:20.011Z"), "source" : [ { "url" : "https://www.nhc.noaa.gov/data/hurdat/hurdat2-atl-1851-2023-042624.txt", "source" : [ "tc_hurdat" ] } ], "name" : "UNNAMED", "num" : 1 },
+	{ "_id" : "AL041851", "data_type" : "tropicalCyclone", "data_info" : [ [ "wind", "surface_pressure" ], [ "units" ], [ [ "kt" ], [ "mb" ] ] ], "date_updated_argovis" : ISODate("2024-05-31T01:39:20.011Z"), "source" : [ { "url" : "https://www.nhc.noaa.gov/data/hurdat/hurdat2-atl-1851-2023-042624.txt", "source" : [ "tc_hurdat" ] } ], "name" : "UNNAMED", "num" : 4 }
 ]);
 
 db.rg09.insertMany([
